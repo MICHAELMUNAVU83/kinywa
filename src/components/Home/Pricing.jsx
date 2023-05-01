@@ -5,7 +5,7 @@ const Pricing = () => {
     <div id="pricing" className="w-[90%] p-8 mx-auto">
       <h1 className="text-5xl font-bold">Pricing</h1>
       <div className="flex justify-between mt-8">
-        <div className="w-[30%] border-2 border-[#888888] hover:border-black transition-all duration-500 hover:scale-105 cursor-pointer  p-8">
+        <div className="w-[30%] border-2 border-[#888888] hover:border-black transition ease-in-out duration-500 hover:scale-105 cursor-pointer  p-8">
           <div className="flex flex-col  w-[90%] mx-auto">
             <div className="flex mb-2 justify-between items-end">
               <h1 className="text-md uppercase">Package</h1>
@@ -29,7 +29,7 @@ const Pricing = () => {
             <button className="bg-black  text-white py-4 px-2">Book Now</button>
           </div>
         </div>
-        <div className="w-[30%] border-2 border-[#888888] hover:border-black transition-all duration-500 hover:scale-105 cursor-pointer  p-8">
+        <div className="w-[30%] border-2 border-[#888888] hover:border-black transition ease-in-out duration-500 hover:scale-105 cursor-pointer  p-8">
           <div className="flex flex-col  w-[90%] mx-auto">
             <div className="flex mb-2 justify-between items-end">
               <h1 className="text-md uppercase">Package</h1>
@@ -52,10 +52,12 @@ const Pricing = () => {
               <p>- 2 Videographer</p>
             </div>
             <hr className="my-4" />
-            <button className="bg-black  text-white  py-4 px-2">Book Now</button>
+            <button className="bg-black  text-white  py-4 px-2">
+              Book Now
+            </button>
           </div>
         </div>
-        <div className="w-[30%] border-2 border-[#888888] hover:border-black transition-all duration-500 hover:scale-105 cursor-pointer  p-8">
+        <div className="w-[30%] border-2 border-[#888888] hover:border-black transition ease-in-out duration-500 hover:scale-105 cursor-pointer  p-8">
           <div className="flex flex-col  w-[90%] mx-auto">
             <div className="flex mb-2 justify-between items-end">
               <h1 className="text-md uppercase">Package</h1>

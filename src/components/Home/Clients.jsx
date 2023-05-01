@@ -8,10 +8,10 @@ import "swiper/css/free-mode";
 import "swiper/css/navigation";
 import "swiper/css/thumbs";
 import "swiper/css/pagination";
-
+import "swiper/css/autoplay";
 import { clients } from "../clientsdatabase";
 
-import { FreeMode, Navigation, Thumbs, Pagination } from "swiper";
+import { FreeMode, Navigation, Thumbs, Pagination, Autoplay } from "swiper";
 
 export default function App() {
   const [thumbsSwiper, setThumbsSwiper] = useState(null);
@@ -25,7 +25,7 @@ export default function App() {
           clients.map(
             (client) =>
               client.id === clickedImageId && (
-                <div className="fixed  bg-white shadow-xl h-[700px] my-auto inset-0 bg-opacity z-10  w-[90%]  mx-auto">
+                <div className="fixed  bg-white shadow-xl h-[700px] my-auto transition ease-in-out duration-500 inset-0 bg-opacity z-10  w-[90%]  mx-auto">
                   <div className="flex justify-end  p-4">
                     <button
                       className="bg-black text-white px-4 py-2 rounded-lg"
@@ -51,8 +51,11 @@ export default function App() {
               )
           )}
 
-        <div className="flex flex-col text-5xl items-end p-4   uppercase   gap-2 text-white">
-          <h1 className="font-bold">Clients</h1>
+        <div className=" text-start  flex flex-col  items-end  p-12">
+          <h1 className="text-7xl   text-white   font-bold  flex gap-2 ">
+            Clients
+          </h1>
+          <p className="bg-white   transition ease-in-out duration-500   h-1 w-12"></p>
         </div>
         <div className="w-[80%]  mx-auto ">
           <Swiper
@@ -62,7 +65,7 @@ export default function App() {
             }}
             loop={true}
             spaceBetween={10}
-            className="mb-2 py-8"
+            className="mb-2 cursor-pointer py-8"
             thumbs={{ swiper: thumbsSwiper }}
             pagination={true}
             modules={[FreeMode, Navigation, Thumbs, Pagination]}
@@ -82,7 +85,7 @@ export default function App() {
                     <p className="my-4">{client.description}</p>
                     <p className="bg-[#333333] h-[2px] my-2 w-36"></p>
                     <p
-                      className="flex uppercase gap-2 bg-black p-2 w-[40%] text-white flex justify-center   cursor-pointer hover:scale-105 duration-500 transition-all"
+                      className="flex uppercase gap-2 bg-black p-2 w-[40%] text-white flex justify-center   cursor-pointer hover:scale-105 duration-500 transition ease-in-out"
                       onClick={() => {
                         setShowExtraImages(true);
                         setClickedImageId(client.id);
@@ -100,8 +103,14 @@ export default function App() {
             loop={true}
             slidesPerView={4}
             freeMode={true}
+            autoplay={{
+              delay: 2500,
+              disableOnInteraction: false,
+
+              loop: true,
+            }}
             watchSlidesProgress={true}
-            modules={[FreeMode, Navigation, Thumbs]}
+            modules={[FreeMode, Navigation, Thumbs, Autoplay]}
           >
             {clients.map((client) => (
               <SwiperSlide className="h-[300px] w-[25%]  ">

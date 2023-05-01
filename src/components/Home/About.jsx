@@ -32,7 +32,7 @@ const About = () => {
       <div className="w-[50%] bg-[#333333] text-white text-3xl   flex flex-col justify-center items-center">
         <div className="flex justify-center  ">
           <div
-            className="flex justify-center items-center h-[250px] w-[250px] hover:bg-white hover:text-black cursor-pointer  transition-all duration-500"
+            className="flex justify-center items-center h-[250px] w-[250px] hover:bg-white hover:text-black cursor-pointer  transition ease-in-out duration-500"
             style={{
               borderBottom: "3px solid white",
             }}
@@ -40,7 +40,7 @@ const About = () => {
             BRANDS
           </div>
           <div
-            className="flex justify-center items-center h-[250px] w-[250px] hover:bg-white hover:text-black cursor-pointer  transition-all duration-500"
+            className="flex justify-center items-center h-[250px] w-[250px] hover:bg-white hover:text-black cursor-pointer  transition ease-in-out duration-500"
             style={{
               borderBottom: "3px solid white",
               borderLeft: "3px solid white",
@@ -50,11 +50,11 @@ const About = () => {
           </div>
         </div>
         <div className="flex justify-center  ">
-          <div className="flex justify-center items-center h-[250px] w-[250px] hover:bg-white hover:text-black cursor-pointer  transition-all duration-500">
+          <div className="flex justify-center items-center h-[250px] w-[250px] hover:bg-white hover:text-black cursor-pointer  transition ease-in-out duration-500">
             NATURE
           </div>
           <div
-            className="flex justify-center items-center h-[250px] w-[250px] hover:bg-white hover:text-black cursor-pointer  transition-all duration-500"
+            className="flex justify-center items-center h-[250px] w-[250px] hover:bg-white hover:text-black cursor-pointer  transition ease-in-out duration-500"
             style={{
               borderLeft: "3px solid white",
             }}
