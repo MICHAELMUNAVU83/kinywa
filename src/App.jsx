@@ -6,11 +6,13 @@ import Footer from "./components/Home/Footer";
 import Recognition from "./components/Home/Recognition";
 import NavBar from "./components/Home/NavBar";
 import Portfolio from "./pages/Portfolio";
+import ScrollToTop from "./components/ScrollToTop";
 function App() {
   const [portolioSelected, setPortfolioSelected] = useState("all");
   return (
     <div>
       <BrowserRouter>
+        <ScrollToTop />
         <NavBar />
         <Routes>
           <Route
