@@ -14,7 +14,7 @@ const About = ({ portolioSelected, setPortfolioSelected }) => {
             <p className="text-black">About</p>
             Me
           </div>
-          <p className="bg-black h-1 w-10"></p>
+          <p className="bg-black h-1 w-24"></p>
           <p className="my-4">
             Uncommonly surrounded considered for him are its. It we is read good
             soon. My to considered delightful invitation announcing of no

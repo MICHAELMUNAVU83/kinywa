@@ -19,9 +19,9 @@ const Hero = () => {
           </div>
           <Link
             to="/portfolio"
-            className="text-black underline  text-3xl mt-4  text-white cursor-pointer  transition ease-in-out duration-500   "
+            className="text-white bg-black hover:scale-105 transition duration-500 ease-in-out  px-4 py-2  text-xl mt-4  text-white cursor-pointer  transition ease-in-out duration-500   "
           >
-            {">"} View Portfolio
+            View Portfolio
           </Link>
         </div>
       </div>
