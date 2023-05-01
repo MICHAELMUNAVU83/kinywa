@@ -4,15 +4,19 @@ import About from "./components/About";
 
 import LatestWorks from "./components/LatestWorks";
 import Pricing from "./components/Pricing";
+import Clients from "./components/Clients";
 import "./App.css";
-
+import { BrowserRouter } from "react-router-dom";
 function App() {
   return (
     <div>
-      <Hero />
-      <About />
-      <LatestWorks />
-      <Pricing />
+      <BrowserRouter>
+        <Hero />
+        <About />
+        <LatestWorks />
+        <Pricing />
+        <Clients />
+      </BrowserRouter>
     </div>
   );
 }
