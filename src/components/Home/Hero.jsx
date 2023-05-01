@@ -12,7 +12,7 @@ const Hero = () => {
         <div className="flex flex-col items-start">
           <div className="text-7xl flex gap-2 font-bold">
             <span className="text-[#CCCCCC] ">I'm</span>
-            Brain Kinywa
+            Brian Kinywa
           </div>
           <div className="text-3xl text-center font-bold">
             I create art with photography
