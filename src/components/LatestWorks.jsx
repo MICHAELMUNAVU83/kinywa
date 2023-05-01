@@ -3,6 +3,17 @@ import CountUp from "react-countup";
 import { HiUserGroup } from "react-icons/hi";
 import { AiOutlinePicture } from "react-icons/ai";
 import { IoAlbumsOutline } from "react-icons/io5";
+import pic1 from "../images/pic1.jpg";
+import pic2 from "../images/pic2.jpg";
+
+import pic3 from "../images/pic3.jpg";
+import pic4 from "../images/pic4.jpg";
+import pic5 from "../images/pic5.jpg";
+import pic6 from "../images/pic6.jpg";
+import pic7 from "../images/pic7.jpg";
+import pic8 from "../images/pic8.jpg";
+import pic9 from "../images/pic9.jpg";
+
 const LatestWorks = () => {
   return (
     <div className="group">
@@ -13,9 +24,21 @@ const LatestWorks = () => {
         <p className="bg-white group-hover:block hidden transition-all duration-500   h-1 w-10"></p>
       </div>
       <div className="flex">
-        <div className="w-1/3 bg-red-500 h-[80vh]"></div>
-        <div className="w-1/3 bg-blue-500 h-[80vh]"></div>
-        <div className="w-1/3 bg-yellow-500 h-[80vh]"></div>
+        <div className="w-1/3 flex flex-col bg-red-500 ">
+          <img src={pic5} alt="pic1" className="h-[40vh] object-cover object-top  w-[100%]" />
+          <img src={pic1} alt="pic2" className="h-[60vh] object-cover object-center  w-[100%]" />
+          <img src={pic6} alt="pic3" className="h-[40vh] object-cover object-top  w-[100%] object-center" />
+        </div>
+        <div className="w-1/3 bg-blue-500 ">
+          <img src={pic7} alt="pic1" className="h-[60vh] object-cover  w-[100%]" />
+          <img src={pic9} alt="pic2" className="h-[40vh] object-cover   w-[100%]" />
+          <img src={pic4} alt="pic3" className="h-[40vh] object-cover  w-[100%]" />
+        </div>
+        <div className="w-1/3 bg-yellow-500 ">
+          <img src={pic8} alt="pic1" className="h-[40vh] object-cover object-top  w-[100%]" />
+          <img src={pic2} alt="pic2" className="h-[40vh] object-cover object-center  w-[100%]" />
+          <img src={pic3} alt="pic3" className="h-[60vh] object-cover  w-[100%]" />
+        </div>
       </div>
       <div className=" bg-[#333333] ">
         <div className=" flex justify-center  p-8  uppercase   gap-4 text-white">

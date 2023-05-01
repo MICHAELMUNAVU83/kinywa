@@ -1,7 +1,9 @@
 import React from "react";
 import Hero from "./components/Hero";
 import About from "./components/About";
+
 import LatestWorks from "./components/LatestWorks";
+import Pricing from "./components/Pricing";
 import "./App.css";
 
 function App() {
@@ -10,6 +12,7 @@ function App() {
       <Hero />
       <About />
       <LatestWorks />
+      <Pricing />
     </div>
   );
 }
