@@ -11,15 +11,46 @@ import "swiper/css/pagination";
 
 import { clients } from "../clientsdatabase";
 
-// import required modules
 import { FreeMode, Navigation, Thumbs, Pagination } from "swiper";
 
 export default function App() {
   const [thumbsSwiper, setThumbsSwiper] = useState(null);
+  const [showExtraImages, setShowExtraImages] = useState(false);
+  const [clickedImageId, setClickedImageId] = useState(null);
 
   return (
     <>
       <div id="clients" className="bg-[#333333] py-8 ">
+        {showExtraImages &&
+          clients.map(
+            (client) =>
+              client.id === clickedImageId && (
+                <div className="fixed  bg-white shadow-xl h-[700px] my-auto inset-0 bg-opacity z-10  w-[90%]  mx-auto">
+                  <div className="flex justify-end  p-4">
+                    <button
+                      className="bg-black text-white px-4 py-2 rounded-lg"
+                      onClick={() => setShowExtraImages(!showExtraImages)}
+                    >
+                      X
+                    </button>
+                  </div>
+
+                  <div className="w-[80%] flex gap-2 mx-auto">
+                    <img
+                      src={client.extra_img.img1}
+                      alt="pic1"
+                      className="h-[600px] object-cover object-top w-[50%]"
+                    />
+                    <img
+                      src={client.extra_img.img2}
+                      alt="pic1"
+                      className="h-[600px] object-cover object-top w-[50%]"
+                    />
+                  </div>
+                </div>
+              )
+          )}
+
         <div className="flex flex-col text-5xl items-end p-4   uppercase   gap-2 text-white">
           <h1 className="font-bold">Clients</h1>
         </div>
@@ -50,7 +81,13 @@ export default function App() {
                     <p className="bg-[#333333] h-[2px] w-12"></p>
                     <p className="my-4">{client.description}</p>
                     <p className="bg-[#333333] h-[2px] my-2 w-36"></p>
-                    <p className="flex uppercase gap-2 bg-black p-2 w-[40%] text-white flex justify-center   cursor-pointer hover:scale-105 duration-500 transition-all">
+                    <p
+                      className="flex uppercase gap-2 bg-black p-2 w-[40%] text-white flex justify-center   cursor-pointer hover:scale-105 duration-500 transition-all"
+                      onClick={() => {
+                        setShowExtraImages(true);
+                        setClickedImageId(client.id);
+                      }}
+                    >
                       Explore Photo set
                     </p>
                   </div>
