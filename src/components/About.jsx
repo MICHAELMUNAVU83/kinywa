@@ -37,7 +37,7 @@ const About = () => {
               borderBottom: "3px solid white",
             }}
           >
-            WEDDING
+            BRANDS
           </div>
           <div
             className="flex justify-center items-center h-[250px] w-[250px] hover:bg-white hover:text-black cursor-pointer  transition-all duration-500"
