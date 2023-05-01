@@ -23,7 +23,7 @@ const Hero = () => {
 
       <div className=" items-end flex flex-col p-10 text-white mt-[10%] place-self-start">
         <div className="text-7xl flex gap-2 font-bold">
-          <span>I'm</span>
+          <span className="text-[#CCCCCC] ">I'm</span>
           Brain Kinywa
         </div>
         <div className="text-3xl text-start font-bold">I do amazing photography</div>

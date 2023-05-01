@@ -7,7 +7,7 @@ const About = () => {
         <div
           className="m-8 p-12  bg-white   "
           style={{
-            border: "3px solid white",
+            border: "3px solid black",
           }}
         >
           <div className="flex text-[#CCCCCC] gap-1 font-bold text-7xl">
