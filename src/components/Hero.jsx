@@ -5,7 +5,8 @@ import { FiMenu } from "react-icons/fi";
 const Hero = () => {
   return (
     <div
-      className="h-[100vh]  bg-cover  "
+          className="h-[100vh]  bg-cover  "
+          id="home"
       style={{ backgroundImage: `url(${herobg})` }}
     >
       <div className="flex justify-between p-4">

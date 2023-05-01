@@ -2,7 +2,7 @@ import React from "react";
 import { IoStarSharp } from "react-icons/io5";
 const Pricing = () => {
   return (
-    <div className="w-[90%] p-8 mx-auto">
+    <div id="pricing" className="w-[90%] p-8 mx-auto">
       <h1 className="text-5xl font-bold">Pricing</h1>
       <div className="flex justify-between mt-8">
         <div className="w-[30%] border-2 border-[#888888] hover:border-black transition-all duration-500 hover:scale-105 cursor-pointer  p-8">

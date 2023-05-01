@@ -15,7 +15,7 @@ import pic9 from "../images/pic9.jpg";
 
 const LatestWorks = () => {
   return (
-    <div className="group">
+    <div id="works" className="group">
       <div className="bg-black text-start flex flex-col  items-end  p-12">
         <h1 className="text-5xl   text-white text-[#CCCCCC]  font-bold  flex gap-2 ">
           <p className="text-white">Latest</p> Works

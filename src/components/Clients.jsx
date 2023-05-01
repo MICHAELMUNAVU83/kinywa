@@ -19,8 +19,8 @@ export default function App() {
 
   return (
     <>
-      <div className="bg-[#333333] ">
-        <div className="flex flex-col text-5xl items-end p-8   uppercase   gap-2 text-white">
+      <div id="clients" className="bg-[#333333] py-8 ">
+        <div className="flex flex-col text-5xl items-end p-4   uppercase   gap-2 text-white">
           <h1 className="font-bold">Clients</h1>
         </div>
         <div className="w-[80%]  mx-auto ">
