@@ -1,6 +1,6 @@
 import React from "react";
-
-const About = () => {
+import { Link } from "react-router-dom";
+const About = ({ portolioSelected, setPortfolioSelected }) => {
   return (
     <div id="about" className="flex">
       <div className="w-[50%] h-[80vh]  flex flex-col  justify-center items-center">
@@ -31,36 +31,50 @@ const About = () => {
       </div>
       <div className="w-[50%] bg-[#333333] text-white text-3xl   flex flex-col justify-center items-center">
         <div className="flex justify-center  ">
-          <div
-            className="flex justify-center items-center h-[250px] w-[250px] hover:bg-white hover:text-black cursor-pointer  transition ease-in-out duration-500"
+          <Link
+            to="/portfolio"
+            onClick={() => setPortfolioSelected("brands")}
+            className="flex justify-center uppercase items-center h-[250px] w-[250px]
+            hover:bg-white hover:text-black cursor-pointer transition
+            ease-in-out duration-500"
             style={{
               borderBottom: "3px solid white",
             }}
           >
-            BRANDS
-          </div>
-          <div
-            className="flex justify-center items-center h-[250px] w-[250px] hover:bg-white hover:text-black cursor-pointer  transition ease-in-out duration-500"
+            brands
+          </Link>
+          <Link
+            to="/portfolio"
+            onClick={() => setPortfolioSelected("studio")}
+            className="flex uppercase justify-center items-center h-[250px] w-[250px]
+            hover:bg-white hover:text-black cursor-pointer transition
+            ease-in-out duration-500"
             style={{
               borderBottom: "3px solid white",
               borderLeft: "3px solid white",
             }}
           >
-            STUDIO
-          </div>
+            studio
+          </Link>
         </div>
         <div className="flex justify-center  ">
-          <div className="flex justify-center items-center h-[250px] w-[250px] hover:bg-white hover:text-black cursor-pointer  transition ease-in-out duration-500">
-            NATURE
-          </div>
-          <div
-            className="flex justify-center items-center h-[250px] w-[250px] hover:bg-white hover:text-black cursor-pointer  transition ease-in-out duration-500"
+          <Link
+            to="/portfolio"
+            onClick={() => setPortfolioSelected("nature")}
+            className="flex justify-center uppercase items-center h-[250px] w-[250px] hover:bg-white hover:text-black cursor-pointer  transition ease-in-out duration-500"
+          >
+            nature
+          </Link>
+          <Link
+            to="/portfolio"
+            onClick={() => setPortfolioSelected("events")}
+            className="flex justify-center uppercase items-center h-[250px] w-[250px] hover:bg-white hover:text-black cursor-pointer  transition ease-in-out duration-500"
             style={{
               borderLeft: "3px solid white",
             }}
           >
-            EVENTS
-          </div>
+            events
+          </Link>
         </div>
       </div>
     </div>

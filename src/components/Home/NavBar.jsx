@@ -37,7 +37,7 @@ const NavBar = () => {
       style={{ backgroundColor: `${backgroundColor}` }}
     >
       <section className="flex justify-between ">
-        <a style={{ color: `${textColor}` }} href="#home">
+        <a style={{ color: `${textColor}` }} href="/">
           <div className="flex items-center">
             <img src={kinywaLogo} alt="logo" className="w-24 " />
             <div className="flex flex-col justify-between ml-2">
@@ -77,7 +77,7 @@ const NavBar = () => {
           <div className="flex flex-col text-3xl uppercase text-[#888888] items-center gap-8">
             <a
               className="cursor-pointer hover:text-white transition ease-in-out duration-500"
-              href="#home"
+              href="/"
               onClick={() => setIsOpen(!isOpen)}
             >
               Home

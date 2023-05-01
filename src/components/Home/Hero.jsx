@@ -9,7 +9,7 @@ const Hero = () => {
       id="home"
       style={{ backgroundImage: `url(${herobg})` }}
     >
-      <div className=" items-end flex flex-col p-10 text-white pt-[18%] place-self-start">
+      <div className=" items-end flex h-[100vh] bg-black/30 flex-col p-10 text-white pt-[18%] place-self-start">
         <div className="text-7xl flex gap-2 font-bold">
           <span className="text-[#CCCCCC] ">I'm</span>
           Brain Kinywa
