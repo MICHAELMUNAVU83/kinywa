@@ -2,10 +2,10 @@ import React from "react";
 import { Link } from "react-router-dom";
 const About = ({ portolioSelected, setPortfolioSelected }) => {
   return (
-    <div id="about" className="flex md:flex-row my-8 md:my-0 flex-col">
-      <div className="md:w-[50%] w-[90%] mx-auto h-[80vh]  flex flex-col  justify-center items-center">
+    <div id="about" className="flex md:flex-row my-2 md:my-0 flex-col">
+      <div className="md:w-[50%] my-8 md:m-0 w-[80%] mx-auto h-[80vh]  flex flex-col  justify-center items-center">
         <div
-          className="m-8 p-12  bg-white   "
+          className="md:m-8 m-2 md:p-12  p-4 bg-white   "
           style={{
             border: "3px solid black",
           }}
