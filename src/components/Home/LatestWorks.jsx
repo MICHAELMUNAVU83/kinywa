@@ -174,7 +174,7 @@ const LatestWorks = () => {
           >
             <HiUserGroup className="text-7xl" />
             <div className="flex  flex-col">
-              <p className="font-bold text-5xl">
+              <p className="font-bold text-3xl md:text-5xl">
                 <CountUp end={128} duration={10} /> +
               </p>
               <div className="flex text-[#BCBCBC] gap-2">
@@ -189,7 +189,7 @@ const LatestWorks = () => {
           >
             <AiOutlinePicture className="text-7xl" />
             <div className="flex flex-col">
-              <p className="font-bold text-5xl">
+              <p className="font-bold text-3xl md:text-5xl">
                 <CountUp end={8792} duration={10} /> +
               </p>
               <div className="flex text-[#BCBCBC] gap-2">
@@ -201,7 +201,7 @@ const LatestWorks = () => {
           <div className="flex  gap-2 p-8">
             <IoAlbumsOutline className="text-7xl" />
             <div className="flex flex-col">
-              <p className="font-bold text-5xl">
+              <p className="font-bold text-3xl md:text-5xl">
                 <CountUp end={986} duration={10} /> +
               </p>
               <div className="flex gap-2">
