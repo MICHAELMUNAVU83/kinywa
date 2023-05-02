@@ -9,7 +9,7 @@ const Studio = () => {
   return (
     <div className="flex-wrap flex justify-center items-center">
       {images.map((image) => (
-        <div className=" w-[25%] flex  justify-center items-center hover:bg-white hover:text-[#333333] transition duration-500 ease-in-out cursor-pointer">
+        <div className=" md:w-[25%] w-[50%] flex  justify-center items-center hover:bg-white hover:text-[#333333] transition duration-500 ease-in-out cursor-pointer">
           <img src={image}  />
         </div>
       ))}
