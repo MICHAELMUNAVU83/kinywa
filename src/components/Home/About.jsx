@@ -34,7 +34,7 @@ const About = ({ portolioSelected, setPortfolioSelected }) => {
           <Link
             to="/portfolio"
             onClick={() => setPortfolioSelected("brands")}
-            className="flex justify-center uppercase items-center h-[250px] w-[50%] p-12
+            className="flex justify-center uppercase items-center md:h-[250px] md:w-[250px] w-[200px] h-[200px]
             hover:bg-white hover:text-black cursor-pointer transition
             ease-in-out duration-500"
             style={{
@@ -46,7 +46,7 @@ const About = ({ portolioSelected, setPortfolioSelected }) => {
           <Link
             to="/portfolio"
             onClick={() => setPortfolioSelected("studio")}
-            className="flex uppercase justify-center items-center h-[250px] w-[50%] p-12
+            className="flex uppercase justify-center items-center md:h-[250px] md:w-[250px] w-[200px] h-[200px]
             hover:bg-white hover:text-black cursor-pointer transition
             ease-in-out duration-500"
             style={{
@@ -61,14 +61,14 @@ const About = ({ portolioSelected, setPortfolioSelected }) => {
           <Link
             to="/portfolio"
             onClick={() => setPortfolioSelected("nature")}
-            className="flex justify-center uppercase items-center h-[250px] w-[50%] p-12 hover:bg-white hover:text-black cursor-pointer  transition ease-in-out duration-500"
+            className="flex justify-center uppercase items-center md:h-[250px] md:w-[250px] w-[200px] h-[200px] hover:bg-white hover:text-black cursor-pointer  transition ease-in-out duration-500"
           >
             nature
           </Link>
           <Link
             to="/portfolio"
             onClick={() => setPortfolioSelected("events")}
-            className="flex justify-center uppercase items-center h-[250px] w-[50%] p-12 hover:bg-white hover:text-black cursor-pointer  transition ease-in-out duration-500"
+            className="flex justify-center uppercase items-center md:h-[250px] md:w-[250px] w-[200px] h-[200px] hover:bg-white hover:text-black cursor-pointer  transition ease-in-out duration-500"
             style={{
               borderLeft: "3px solid white",
             }}
