@@ -2,8 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 const About = ({ portolioSelected, setPortfolioSelected }) => {
   return (
-    <div id="about" className="flex">
-      <div className="w-[50%] h-[80vh]  flex flex-col  justify-center items-center">
+    <div id="about" className="flex md:flex-row my-8 md:my-0 flex-col">
+      <div className="md:w-[50%] w-[90%] mx-auto h-[80vh]  flex flex-col  justify-center items-center">
         <div
           className="m-8 p-12  bg-white   "
           style={{
@@ -29,12 +29,12 @@ const About = ({ portolioSelected, setPortfolioSelected }) => {
           </p>
         </div>
       </div>
-      <div className="w-[50%] bg-[#333333] text-white text-3xl   flex flex-col justify-center items-center">
+      <div className="md:w-[50%] w-[90%] mx-auto bg-[#333333] text-white text-3xl   flex flex-col justify-center items-center">
         <div className="flex justify-center  ">
           <Link
             to="/portfolio"
             onClick={() => setPortfolioSelected("brands")}
-            className="flex justify-center uppercase items-center h-[250px] w-[250px]
+            className="flex justify-center uppercase items-center h-[250px] w-[50%] p-12
             hover:bg-white hover:text-black cursor-pointer transition
             ease-in-out duration-500"
             style={{
@@ -46,7 +46,7 @@ const About = ({ portolioSelected, setPortfolioSelected }) => {
           <Link
             to="/portfolio"
             onClick={() => setPortfolioSelected("studio")}
-            className="flex uppercase justify-center items-center h-[250px] w-[250px]
+            className="flex uppercase justify-center items-center h-[250px] w-[50%] p-12
             hover:bg-white hover:text-black cursor-pointer transition
             ease-in-out duration-500"
             style={{
@@ -61,14 +61,14 @@ const About = ({ portolioSelected, setPortfolioSelected }) => {
           <Link
             to="/portfolio"
             onClick={() => setPortfolioSelected("nature")}
-            className="flex justify-center uppercase items-center h-[250px] w-[250px] hover:bg-white hover:text-black cursor-pointer  transition ease-in-out duration-500"
+            className="flex justify-center uppercase items-center h-[250px] w-[50%] p-12 hover:bg-white hover:text-black cursor-pointer  transition ease-in-out duration-500"
           >
             nature
           </Link>
           <Link
             to="/portfolio"
             onClick={() => setPortfolioSelected("events")}
-            className="flex justify-center uppercase items-center h-[250px] w-[250px] hover:bg-white hover:text-black cursor-pointer  transition ease-in-out duration-500"
+            className="flex justify-center uppercase items-center h-[250px] w-[50%] p-12 hover:bg-white hover:text-black cursor-pointer  transition ease-in-out duration-500"
             style={{
               borderLeft: "3px solid white",
             }}

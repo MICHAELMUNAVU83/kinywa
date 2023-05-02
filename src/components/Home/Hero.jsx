@@ -4,17 +4,17 @@ import { Link } from "react-router-dom";
 const Hero = () => {
   return (
     <div
-      className="h-[100vh] bg-fixed  bg-cover  "
+      className="h-[100vh] bg-no-repeat bg-fixed  bg-cover  bg-left   "
       id="home"
       style={{ backgroundImage: `url(${herobg})` }}
     >
-      <div className=" items-end  flex h-[100vh] bg-black/50 flex-col justify-center p-10 text-white  ">
+      <div className=" items-end  flex h-[100vh] bg-black/50 flex-col justify-center md:p-10 text-white  ">
         <div className="flex flex-col items-start">
-          <div className="text-7xl flex gap-2 font-bold">
+          <div className="md:text-7xl text-5xl flex gap-2 font-bold">
             <span className="text-[#CCCCCC] ">I'm</span>
             Brian Kinywa
           </div>
-          <div className="text-3xl text-center font-bold">
+          <div className="md:text-3xl text-xl text-center font-bold">
             I create art with photography
           </div>
           <Link

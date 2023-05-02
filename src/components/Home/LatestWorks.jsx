@@ -16,8 +16,8 @@ import { FaInstagram } from "react-icons/fa";
 const LatestWorks = () => {
   return (
     <div id="works">
-      <div className="bg-black text-start  flex flex-col  items-end  p-12">
-        <h1 className="text-7xl   text-white  font-bold  flex gap-2 ">
+      <div className="bg-black text-start  flex flex-col  p-4  md:items-end  md:p-12">
+        <h1 className="md:text-7xl  text-5xl  text-white  font-bold  flex gap-2 ">
           <p className="text-white ">Latest</p> Works
         </h1>
         <p className="bg-white   transition ease-in-out duration-500   h-1 w-20"></p>
@@ -167,12 +167,10 @@ const LatestWorks = () => {
         </div>
       </div>
       <div className=" bg-[#333333] ">
-        <div className=" flex justify-center  p-8  uppercase   gap-4 text-white">
+        <div className=" flex justify-center items-center  md:flex-row flex-col p-8  uppercase   gap-4 text-white">
           <div
-            className="flex  gap-2 p-8"
-            style={{
-              borderRight: "1px solid white",
-            }}
+            className="flex  gap-2 p-8  md:border-r-2 border-b-2 md:border-b-0 border-white"
+            
           >
             <HiUserGroup className="text-7xl" />
             <div className="flex  flex-col">
@@ -186,10 +184,8 @@ const LatestWorks = () => {
             </div>
           </div>
           <div
-            className="flex  gap-2 p-8"
-            style={{
-              borderRight: "1px solid white",
-            }}
+            className="flex md:border-r-2 border-b-2 md:border-b-0  border-white  gap-2 p-8"
+         
           >
             <AiOutlinePicture className="text-7xl" />
             <div className="flex flex-col">

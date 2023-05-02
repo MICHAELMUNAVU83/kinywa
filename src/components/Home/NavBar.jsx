@@ -41,8 +41,8 @@ const NavBar = () => {
           <div className="flex items-center">
             <img src={kinywaLogo} alt="logo" className="w-24 " />
             <div className="flex flex-col justify-between ml-2">
-              <h1 className="text-3xl font-bold ">Brian Kinywa</h1>
-              <p className="text-sm ">photographer</p>
+              <h1 className="md:text-3xl  text-xl font-bold ">Brian Kinywa</h1>
+              <p className="md:text-sm text-xs ">photographer</p>
             </div>
           </div>
         </a>
@@ -64,7 +64,7 @@ const NavBar = () => {
           className={
             isOpen
               ? "fixed w-[100%] left-0  top-0  h-[100vh] bg-[#333333]  transition ease-in-out duration-500"
-              : "fixed top-[-100%] h-[100vh] w-[100%]  left-0  transition ease-in-out duration-500"
+              : "fixed top-[-200%] h-[100vh] w-[100%]  left-0  transition ease-in-out duration-500"
           }
         >
           <div
@@ -134,7 +134,7 @@ const NavBar = () => {
               className=" md:p-4 p-2 group hover:bg-[#CCCCCC] duration-300 transition  ease-in-out  cursor-pointer   "
               style={{ border: "1px solid #888888" }}
             >
-              <AiFillInstagram className="text-4xl  group-hover:text-black hover:scale-110 duration-300 mx-2 cursor-pointer " />
+              <AiFillInstagram className="md:text-4xl text-2xl  group-hover:text-black hover:scale-110 duration-300 mx-2 cursor-pointer " />
             </a>
             <a
               mailto="mailto:briankinywa@gmail.com"
@@ -143,7 +143,7 @@ const NavBar = () => {
               className=" md:p-4 p-2 group hover:bg-[#CCCCCC] duration-300 transition  ease-in-out  cursor-pointer   "
               style={{ border: "1px solid #888888" }}
             >
-              <SiGmail className="text-4xl  group-hover:text-black hover:scale-110 duration-300 mx-2 cursor-pointer " />
+              <SiGmail className="md:text-4xl text-2xl  group-hover:text-black hover:scale-110 duration-300 mx-2 cursor-pointer " />
             </a>
 
             <a
@@ -153,7 +153,7 @@ const NavBar = () => {
               style={{ border: "1px solid #888888" }}
               className=" md:p-4 p-2 group hover:bg-[#CCCCCC] duration-300  ease-in-out  cursor-pointer   "
             >
-              <AiFillTwitterCircle className="text-4xl  group-hover:text-black group-hover:scale-110 duration-300 mx-2 cursor-pointer " />
+              <AiFillTwitterCircle className="md:text-4xl text-2xl  group-hover:text-black group-hover:scale-110 duration-300 mx-2 cursor-pointer " />
             </a>
             <a
               href="https://www.tiktok.com/@gibbzthadaqchild"
@@ -161,7 +161,7 @@ const NavBar = () => {
               style={{ border: "1px solid #888888" }}
               className=" md:p-4 p-2 group hover:bg-[#CCCCCC] duration-300  ease-in-out  cursor-pointer   "
             >
-              <IoLogoTiktok className="text-4xl  group-hover:text-black  group-hover:scale-110 duration-300 mx-2 cursor-pointer " />
+              <IoLogoTiktok className="md:text-4xl text-2xl  group-hover:text-black  group-hover:scale-110 duration-300 mx-2 cursor-pointer " />
             </a>
 
             <a
@@ -171,7 +171,7 @@ const NavBar = () => {
               style={{ border: "1px solid #888888" }}
               className=" md:p-4 p-2 group hover:bg-[#CCCCCC] duration-300  ease-in-out  cursor-pointer   "
             >
-              <FiPhoneCall className="text-4xl group-hover:text-black group-hover:scale-110 duration-300 mx-2 cursor-pointer" />
+              <FiPhoneCall className="md:text-4xl text-2xl group-hover:text-black group-hover:scale-110 duration-300 mx-2 cursor-pointer" />
             </a>
             <a
               href="https://wa.me/254720038150"
@@ -180,7 +180,7 @@ const NavBar = () => {
               style={{ border: "1px solid #888888" }}
               className=" md:p-4 p-2 group hover:bg-[#CCCCCC] duration-300  ease-in-out  cursor-pointer   "
             >
-              <FaWhatsapp className="text-4xl group-hover:text-black group-hover:scale-110 duration-300 mx-2 cursor-pointer" />
+              <FaWhatsapp className="md:text-4xl text-2xl group-hover:text-black group-hover:scale-110 duration-300 mx-2 cursor-pointer" />
             </a>
           </section>
         </div>

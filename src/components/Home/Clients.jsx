@@ -20,7 +20,7 @@ export default function App() {
 
   return (
     <>
-      <div id="clients" className="bg-[#333333] py-8 ">
+      <div id="clients" className="bg-[#333333] py-4 md:py-8 ">
         {showExtraImages &&
           clients.map(
             (client) =>
@@ -57,7 +57,7 @@ export default function App() {
           </h1>
           <p className="bg-white   transition ease-in-out duration-500   h-1 w-12"></p>
         </div>
-        <div className="w-[80%]  mx-auto ">
+        <div className="md:w-[80%] w-[90%]  mx-auto ">
           <Swiper
             style={{
               "--swiper-navigation-color": "#fff",
@@ -76,16 +76,16 @@ export default function App() {
                   <img
                     src={client.img}
                     alt="pic1"
-                    className="h-[60vh] object-cover object-top  w-[48%]"
+                    className="md:h-[70vh] h-[60vh] object-cover object-top w-[60%]  md:w-[48%]"
                   />
-                  <div className="bg-white w-[48%] h-[50vh] flex flex-col  my-auto p-8">
-                    <h1 className="text-4xl font-bold ">{client.name}</h1>
+                  <div className="bg-white md:w-[48%] w-[38%] h-[60vh] flex flex-col  my-auto p-4 md:p-8">
+                    <h1 className="md:text-4xl font-bold ">{client.name}</h1>
                     <p className="text-[#333333]">{client.title}</p>
                     <p className="bg-[#333333] h-[2px] w-12"></p>
-                    <p className="my-4">{client.description}</p>
+                    <p className="my-4 md:text-md text-xs">{client.description}</p>
                     <p className="bg-[#333333] h-[2px] my-2 w-36"></p>
                     <p
-                      className="flex uppercase gap-2 bg-black p-2 w-[40%] text-white flex justify-center   cursor-pointer hover:scale-105 duration-500 transition ease-in-out"
+                      className="flex uppercase text-center md:text-md text-xs gap-2 bg-black p-2 md:w-[40%] text-white flex justify-center   cursor-pointer hover:scale-105 duration-500 transition ease-in-out"
                       onClick={() => {
                         setShowExtraImages(true);
                         setClickedImageId(client.id);

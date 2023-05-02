@@ -4,9 +4,9 @@ import logo from "../images/logo.png";
 const Footer = () => {
   return (
     <div className="bg-[#111111]">
-      <div className="flex justify-between items-center mx-auto w-[80%] p-4">
-        <img src={logo} alt="logo" className="w-56" />
-        <div className="uppercase flex gap-8 text-xl text-[#888888]">
+      <div className="flex justify-between gap-4 md:gap-0  md:flex-row flex-col items-center mx-auto md:w-[80%] w-[90%] p-4">
+        <img src={logo} alt="logo" className="md:w-56 w-24" />
+        <div className="uppercase flex md:gap-8 gap-2 md:text-xl text-sm text-[#888888]">
           <a
             className="cursor-pointer hover:text-white transition ease-in-out duration-500"
             

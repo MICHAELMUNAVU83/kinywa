@@ -6,8 +6,8 @@ import { BsInstagram } from "react-icons/bs";
 const Contact = () => {
   return (
     <div id="contact" className="  bg-[#333333]  ">
-      <div className="flex  ">
-        <div className="w-[50%] bg-white flex flex-col  p-12 items-end ">
+      <div className="flex  md:flex-row flex-col">
+        <div className="md:w-[50%] w-[90%] mx-auto   bg-white flex flex-col  md:p-12 p-4 items-center md:items-end ">
           <div className="flex gap-2 text-white font-bold text-5xl">
             <h1 className="text-black">Text</h1>
             Me
@@ -15,27 +15,27 @@ const Contact = () => {
           <input
             type="text"
             placeholder="Your Name.. *"
-            className="w-[70%] p-4 my-2 border-2 border-[#CCCCCC] outline-none"
+            className="md:w-[70%] w-[90%] p-2 my-2 border-2 border-[#CCCCCC] outline-none"
           />
           <input
             type="text"
             placeholder="Your Email .. *"
-            className="w-[70%] p-4 my-2 border-2 border-[#CCCCCC] outline-none"
+            className="md:w-[70%] w-[90%] p-4 my-2 border-2 border-[#CCCCCC] outline-none"
           />
           <textarea
             type="text"
             placeholder="Your Message... *"
-            className="w-[70%] p-4 my-2 border-2 border-[#CCCCCC] outline-none"
+            className="md:w-[70%] w-[90%] p-4 my-2 border-2 border-[#CCCCCC] outline-none"
             rows={10}
           />
           <button
             type="submit"
-            className="bg-black text-white py-4 px-2 w-[70%] text-center"
+            className="bg-black text-white py-4 px-2 md:w-[70%] w-[90%] text-center"
           >
             Send Message
           </button>
         </div>
-        <div className="w-[50%]  flex flex-col  p-12 items-start ">
+        <div className="md:w-[50%] w-[90%] mx-auto  flex flex-col  md:p-12 p-4 items-start ">
           <div className="flex gap-2 text-white mb-4 font-bold text-5xl">
             Contacts
           </div>
