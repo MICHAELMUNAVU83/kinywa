@@ -76,9 +76,9 @@ export default function App() {
                   <img
                     src={client.img}
                     alt="pic1"
-                    className="md:h-[70vh] h-[60vh] object-cover object-top w-[60%]  md:w-[48%]"
+                    className="md:h-[70vh]  object-cover object-top w-[60%]  md:w-[48%]"
                   />
-                  <div className="bg-white md:w-[48%] w-[38%] h-[60vh] flex flex-col  my-auto p-4 md:p-8">
+                  <div className="bg-white md:w-[48%] w-[38%]   md:h-[50vh] flex flex-col  my-auto p-4 md:p-8">
                     <h1 className="md:text-4xl font-bold ">{client.name}</h1>
                     <p className="text-[#333333]">{client.title}</p>
                     <p className="bg-[#333333] h-[2px] w-12"></p>
