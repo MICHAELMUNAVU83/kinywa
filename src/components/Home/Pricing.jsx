@@ -2,10 +2,10 @@ import React from "react";
 import { IoStarSharp } from "react-icons/io5";
 const Pricing = () => {
   return (
-    <div id="pricing" className="w-[90%]  md:p-8 p-4 mx-auto">
+    <div id="pricing" className=" my-4  md:p-8 p-4 ">
       <h1 className="text-5xl font-bold">Pricing</h1>
       <div className="flex md:flex-row flex-col gap-8 md:gap-0 justify-between mt-8">
-        <div className="md:w-[30%]  border-2 border-[#888888] hover:border-black transition ease-in-out duration-500 hover:scale-105 cursor-pointer  p-8">
+        <div className="md:w-[30%]  border-2 border-[#888888] hover:border-black transition ease-in-out duration-500 hover:scale-105 cursor-pointer p-4 md:p-8">
           <div className="flex flex-col  w-[90%] mx-auto">
             <div className="flex mb-2 justify-between items-end">
               <h1 className="text-md uppercase">Package</h1>
@@ -29,7 +29,7 @@ const Pricing = () => {
             <button className="bg-black  text-white py-4 px-2">Book Now</button>
           </div>
         </div>
-        <div className="md:w-[30%] border-2 border-[#888888] hover:border-black transition ease-in-out duration-500 hover:scale-105 cursor-pointer  p-8">
+        <div className="md:w-[30%] border-2 border-[#888888] hover:border-black transition ease-in-out duration-500 hover:scale-105 cursor-pointer p-4  md:p-8">
           <div className="flex flex-col  w-[90%] mx-auto">
             <div className="flex mb-2 justify-between items-end">
               <h1 className="text-md uppercase">Package</h1>
@@ -57,7 +57,7 @@ const Pricing = () => {
             </button>
           </div>
         </div>
-        <div className="md:w-[30%] border-2 border-[#888888] hover:border-black transition ease-in-out duration-500 hover:scale-105 cursor-pointer  p-8">
+        <div className="md:w-[30%] border-2 border-[#888888] hover:border-black transition ease-in-out duration-500 hover:scale-105 cursor-pointer p-4  md:p-8">
           <div className="flex flex-col  w-[90%] mx-auto">
             <div className="flex mb-2 justify-between items-end">
               <h1 className="text-md uppercase">Package</h1>

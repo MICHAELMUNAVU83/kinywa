@@ -39,7 +39,7 @@ const NavBar = () => {
       <section className="flex justify-between ">
         <a style={{ color: `${textColor}` }} href="/">
           <div className="flex items-center">
-            <img src={kinywaLogo} alt="logo" className="w-24 " />
+            <img src={kinywaLogo} alt="logo" className="md:w-24 w-12 " />
             <div className="flex flex-col justify-between ml-2">
               <h1 className="md:text-3xl  text-xl font-bold ">Brian Kinywa</h1>
               <p className="md:text-sm text-xs ">photographer</p>
@@ -56,7 +56,7 @@ const NavBar = () => {
           >
             <FiMenu
               style={{ color: `${textColor}` }}
-              className=" font-bold cursor-pointer animate-bounce  focus:scale-105 transition ease-in-out duration-500  text-5xl"
+              className=" font-bold cursor-pointer animate-bounce  focus:scale-105 transition ease-in-out duration-500  text-3xl md:text-5xl"
             />
           </div>
         </div>
