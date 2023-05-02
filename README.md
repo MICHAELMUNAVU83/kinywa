@@ -21,6 +21,7 @@ Access the live site [here](https://kinywa-concept.netlify.app/)
 
 ## Screenshots
 
+<img width="1440" alt="kinywa" src="https://user-images.githubusercontent.com/86654131/235629239-4e9d0230-84ee-4f6c-b033-620987e42dd6.png">
 
 
 
