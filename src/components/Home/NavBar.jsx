@@ -33,7 +33,7 @@ const NavBar = () => {
 
   return (
     <div
-      className="fixed left-0 top-0 w-full z-10 ease-in duration-300  p-4 "
+      className="fixed left-0 top-0 w-full z-10 ease-in duration-300  p-2 md:p-4 "
       style={{ backgroundColor: `${backgroundColor}` }}
     >
       <section className="flex justify-between ">
