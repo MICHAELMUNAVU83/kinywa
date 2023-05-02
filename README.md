@@ -1,10 +1,10 @@
 # Project Title
 
-PHOTOGRAPHY PORTFOLIO WEBSITE
+PHOTOGRAPHER PORTFOLIO WEBSITE
 
 ## Demo link:
 
-Access the live site [here](https://kinywa-concept.netlify.app/)
+Access the live site [here](https://house-hounter.netlify.app/)
 
 ## Table of Content:
 
@@ -17,7 +17,7 @@ Access the live site [here](https://kinywa-concept.netlify.app/)
 
 ## About The App
 
-[Oraimo Clone Website] is a photography portfolio website that showcases the work of a photographer. It has a home page, about page, gallery page, and contact page. The website is fully responsive .
+[Photograher Portoflio Website] is a photography portfolio website that showcases the work of a photographer. It has a home page, about page, gallery page, and contact page. The website is fully responsive .
 
 ## Screenshots
 
