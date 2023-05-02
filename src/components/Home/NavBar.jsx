@@ -128,18 +128,14 @@ const NavBar = () => {
             onClick={() => setIsOpen(!isOpen)}
           >
             <a
-              href="https://www.instagram.com/tha_daqchild/"
-              rel="noreferrer"
-              target="_blank"
+              
               className=" md:p-4 p-2 group hover:bg-[#CCCCCC] duration-300 transition  ease-in-out  cursor-pointer   "
               style={{ border: "1px solid #888888" }}
             >
               <AiFillInstagram className="md:text-4xl text-2xl  group-hover:text-black hover:scale-110 duration-300 mx-2 cursor-pointer " />
             </a>
             <a
-              mailto="mailto:briankinywa@gmail.com"
-              rel="noreferrer"
-              target="_blank"
+              
               className=" md:p-4 p-2 group hover:bg-[#CCCCCC] duration-300 transition  ease-in-out  cursor-pointer   "
               style={{ border: "1px solid #888888" }}
             >
@@ -147,17 +143,14 @@ const NavBar = () => {
             </a>
 
             <a
-              href="https://twitter.com/thadaqchild"
-              rel=" noreferrer"
-              target="_blank"
+              
               style={{ border: "1px solid #888888" }}
               className=" md:p-4 p-2 group hover:bg-[#CCCCCC] duration-300  ease-in-out  cursor-pointer   "
             >
               <AiFillTwitterCircle className="md:text-4xl text-2xl  group-hover:text-black group-hover:scale-110 duration-300 mx-2 cursor-pointer " />
             </a>
             <a
-              href="https://www.tiktok.com/@gibbzthadaqchild"
-              rel=" noreferrer"
+              
               style={{ border: "1px solid #888888" }}
               className=" md:p-4 p-2 group hover:bg-[#CCCCCC] duration-300  ease-in-out  cursor-pointer   "
             >
@@ -165,18 +158,14 @@ const NavBar = () => {
             </a>
 
             <a
-              href="tel:0720038150"
-              rel=" noreferrer"
-              target="_blank"
+             
               style={{ border: "1px solid #888888" }}
               className=" md:p-4 p-2 group hover:bg-[#CCCCCC] duration-300  ease-in-out  cursor-pointer   "
             >
               <FiPhoneCall className="md:text-4xl text-2xl group-hover:text-black group-hover:scale-110 duration-300 mx-2 cursor-pointer" />
             </a>
             <a
-              href="https://wa.me/254720038150"
-              rel=" noreferrer"
-              target="_blank"
+             
               style={{ border: "1px solid #888888" }}
               className=" md:p-4 p-2 group hover:bg-[#CCCCCC] duration-300  ease-in-out  cursor-pointer   "
             >
