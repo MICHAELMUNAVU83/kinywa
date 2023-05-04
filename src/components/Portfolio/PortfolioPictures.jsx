@@ -2,7 +2,7 @@ import React from "react";
 
 const PortfolioPictures = ({ portolioSelected, setPortfolioSelected }) => {
   return (
-    <div className="bg-[#333333] text-xm md:text-4xl uppercase flex justify-between  text-white  ">
+    <div className="bg-[#333333] text-xs md:text-4xl uppercase flex justify-between  text-white  ">
       <div
         style={{
           borderRight: "1px solid white",

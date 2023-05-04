@@ -23,7 +23,7 @@ const LatestWorks = () => {
         <p className="bg-white   transition ease-in-out duration-500   h-1 w-20"></p>
       </div>
       <div className="flex">
-        <div className="w-1/3 flex flex-col bg-red-500 ">
+        <div className="w-1/3 flex flex-col  ">
           <div className="relative group ">
             <img
               src={pic5}
@@ -118,7 +118,7 @@ const LatestWorks = () => {
             </a>
           </div>
         </div>
-        <div className="w-1/3 bg-yellow-500 ">
+        <div className="w-1/3  ">
           <div className="relative group ">
             <img
               src={pic8}
