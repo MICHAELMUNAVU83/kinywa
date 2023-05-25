@@ -12,6 +12,15 @@ const Recognition = () => {
       >
         Michael Munavu
       </a>
+      and{" "}
+      <a
+        href="https://www.kiprotichkimutai.dev/"
+        rel="noreferrer"
+        target="_blank"
+        className="text-white"
+      >
+        Kiprotich Kimutai
+      </a>
     </div>
   );
 };
