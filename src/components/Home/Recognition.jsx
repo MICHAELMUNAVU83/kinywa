@@ -11,7 +11,7 @@ const Recognition = () => {
         className="text-white"
       >
         Michael Munavu
-      </a>
+      </a>{" "}
       and{" "}
       <a
         href="https://www.kiprotichkimutai.dev/"
